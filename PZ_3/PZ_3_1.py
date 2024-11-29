@@ -22,3 +22,8 @@ while type(number3) != int:
         print('Неправильно Ввели!')
         number3 = input('Введите третье число')
 
+
+if number1 == number2 or number2 == number3 or number1 == number3:
+    print("Из этих чисел как минимум два равны между собой")
+else:
+    print("Из этих чисел нет ни одного равного")
