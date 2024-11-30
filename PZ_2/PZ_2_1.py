@@ -10,3 +10,4 @@ other = number // 10
 chislo = last * 100 + other
 
 print(chislo)
+
