@@ -27,5 +27,3 @@ while type(n) != int:
 result = task(n)
 
 print(result)
-
-
