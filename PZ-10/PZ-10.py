@@ -15,3 +15,4 @@ left1 = left - products1
 left2 = left1 - products2
 
 print("нет ни на одном участке: ", left2)
+
