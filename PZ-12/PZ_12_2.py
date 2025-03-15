@@ -1,3 +1,5 @@
+# Составить генератор (yield), который преобразует все буквенные символы в
+# заглавные.
 from string import ascii_lowercase
 string_new = "hello, I`m  stUdent in RkSi"
 
