@@ -16,6 +16,6 @@ def str1(words):
 
 nig = ""
 ending = str1(string_new)
-for n in ending:
-    nig += n
+for g in ending:
+    nig += g
 print(nig)
