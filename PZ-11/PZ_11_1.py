@@ -6,3 +6,18 @@
 # Количество элементов:
 # Сумма элементов:
 # Элементы до n-1 умножены на элемент n:
+gnom = '-50 -25 0 25 50'
+f1 = open('matveev.txt', 'w')
+f1.write(gnom)
+f1.close()
+f1 = open('matveev.txt')
+f2 = open('matveev1.txt', 'w')
+f3 = open('save.txt', 'w')
+
+f3.write(f1.read())
+f1.close()
+f1 = open('matveev.txt')
+f3.write(len(f1.read()))
+f1.close()
+f2.close()
+f3.close()

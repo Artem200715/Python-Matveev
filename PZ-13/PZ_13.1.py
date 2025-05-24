@@ -7,7 +7,7 @@ print("Список: ", number)
 answ = []
 
 for i in number:
-    answ += i[1:3]
+    answ += i[1:3][i]
 
 summ = reduce(lambda x, y: x+y, answ)
 print("Сумма последних 2 столбцов: ", summ)
